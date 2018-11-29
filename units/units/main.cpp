@@ -231,8 +231,10 @@ bool Units::debug = true;
 int main() {
     Units *latnic1 = new Military(1,"latnic1",11,0,6,150,30,4500);
     Units *latnic2 = new Military(1,"latnic2",10,0,5,150,30,4500);
+    Units *latnic3 = new Military(1,"asdasd",10,0,3,4,1,24);
     delete latnic1;
     delete latnic2;
+    delete latnic3;
     return 0;
 }
 
